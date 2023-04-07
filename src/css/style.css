@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.search-form {
+    display: block;
+    background: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+.search-form input {
+    width: 300px;
+}
+.search-form input,
+.search-form button {
+    padding: 10px;
+}
+
+.gallery {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
